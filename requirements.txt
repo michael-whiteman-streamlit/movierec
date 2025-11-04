@@ -1,0 +1,9 @@
+faiss-cpu
+numpy
+pandas
+pyarrow
+scikit-learn
+scipy
+streamlit
+torch
+tqdm

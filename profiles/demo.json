@@ -1,0 +1,17 @@
+{
+  "likes": [
+    19,
+    22,
+    88,
+    219,
+    222
+  ],
+  "dislikes": [],
+  "hidden": [],
+  "watchlist": [],
+  "genres": {},
+  "year_pref": {
+    "mu": 2000,
+    "sigma": 20
+  }
+}

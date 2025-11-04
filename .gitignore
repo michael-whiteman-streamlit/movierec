@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+.vscode/
+.idea/
+.ipynb_checkpoints/
+> # project: keep repo light (app reads artifacts/, not raw)
+data/raw/
+data/processed/
