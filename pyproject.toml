@@ -1,7 +1,16 @@
+[build-system]
+requires = ['setuptools>=68', 'wheel']
+build-backend = 'setuptools.build_meta'
+
 [project]
-name = "movierec"
-version = "0.1.0"
+name = 'movierec'
+version = '0.1.0'
+requires-python = '>=3.10'
+description = 'Movie recommendation system (LightGCN, BPR-MF) with Streamlit UI'
 
 [tool.setuptools]
-package-dir = {"" = "src"}
-packages = ["movierec"]
+package-dir = {'' = 'src'}
+
+[tool.setuptools.packages.find]
+where = ['src']
+include = ['movierec*']
